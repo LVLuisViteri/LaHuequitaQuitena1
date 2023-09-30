@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Huequita Quiteña - Licorería</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
@@ -13,26 +13,35 @@
 <body>
     <header>
         <div class="logo">
-            <img src="/Imagenes/Logo La Huequita Quiteña.jpg" alt="Logo de La Huequita Quiteña">
+            <img src="/Imagenes/Logo La Huequita 200px.png" alt="Logo de La Huequita Quiteña">
+            <h2 class="Nombre de la empresa">La Huequita Quiteña</h2>
+        </div>            
+    </header> 
+    <nav class="mobile-nav">
+        <div class="dropdown">
+            <a href="#">Menú</a>
+            <div class="dropdown-content">
+                <a href="quienes-somos.js">Quienes somos</a>
+                <a href="como-comprar.js">Como comprar</a>
+                <a href="politica-devolucion.js">Política de devolución</a>
+                <a href="contacto.js">Contacto</a>
+                <a href="Productos">Productos</a>
+                <a href="Promociones">Promociones</a>
+            </div>
         </div>
-        <h1>La Huequita Quiteña</h1>
-        <h2>La licorería más chulla de Quito, ¡tu rumba comienza aquí!</h2>
-        <form id="search-form">
-            <input type="text" id="search-input" placeholder="¿Qué estás buscando?">
-            <button type="submit">Buscar</button>
-        </form>             
-    </header>
-    <nav>
-        <ul>
-            <li><a href="quienes-somos.js">Quienes somos</a></li>
-            <li><a href="como-comprar.js">Como comprar</a></li>
-            <li><a href="politica-devolucion.js">Política de devolución</a></li>
-            <li><a href="contacto.js">Contacto</a></li>
-        </ul>
-    </nav>  
+    </nav>
+    
+    <nav class="desktop-nav">
+        <a href="quienes-somos.js">Quienes somos</a>
+        <a href="como-comprar.js">Como comprar</a>
+        <a href="politica-devolucion.js">Política de devolución</a>
+        <a href="contacto.js">Contacto</a>
+        <a href="Productos">Productos</a>
+        <a href="Promociones">Promociones</a>
+    </nav>
     <section class="fotos">
         <!-- Aquí puedes agregar tus imágenes -->
-        <img src="/Imagenes/La Huequita Quiteña.png" alt="La Huequita" style="width: 1500px; height: 400px;">
+        <img src="/Imagenes/La Huequita Quiteña.png" alt="La Huequita" style="width: 100%">
     </section>
     <section class="productos-mas-vendidos">
         <h2>Productos Más Vendidos</h2>

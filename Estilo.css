@@ -1,0 +1,120 @@
+
+
+header{
+    display: flex;
+    min-height: 160px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    background-size: 100%;
+}
+.logo{
+    display: flex;
+    font-family: 'Croisant one', cursive;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.logo img{
+    border-radius: 50%; /* Forma redonda */
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: 150px; /* Ajusta el tamaño según tus necesidades */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin-right: 10px;
+}
+
+/* Estilos generales para el menú desplegable */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    display: none; /* Ocultar por defecto en dispositivos móviles */
+}
+
+/* Estilos para los enlaces */
+
+.desktop-nav {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+.desktop-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center; /* Alinea el texto al centro */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.desktop-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+}
+.desktop-nav {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.desktop-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px; /* Bordes redondeados en los enlaces */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.desktop-nav a:hover {
+    background-color: #333;
+    color: #fff; /* Cambio de color de texto al pasar el mouse */
+
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+.desktop-nav .menu-text {
+    display: none; /* Ocultar la palabra "Menú" en dispositivos de escritorio */
+}
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .desktop-nav {
+        display: none; /* Ocultar barra de navegación de escritorio en dispositivos móviles */
+    }
+    
+    .mobile-nav a{
+        display: block; /* Mostrar barra de navegación móvil */
+    }
+
+    .mobile-nav .dropdown-content {
+        display: none; /* Ocultar menú desplegable en dispositivos móviles por defecto */
+    }
+
+    /* Mostrar el menú desplegable cuando se hace clic en "Menú" */
+    .mobile-nav .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
