@@ -117,4 +117,20 @@ nav a:hover {
     .mobile-nav .dropdown:hover .dropdown-content {
         display: block;
     }
+} 
+/* Estilos para dispositivos de computadoras */
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .productos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Estilos adicionales según sea necesario */
+
