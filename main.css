@@ -282,4 +282,12 @@ main {
 .boton-carrito {
     background-color: #28a745; /* Color de fondo verde */
 }
+/***media Queries***/
 
+@media screen and (max-width: 600px) {
+    .contenedor-productos{
+        grid-template-columns: 1fr;
+
+    }
+    
+}
