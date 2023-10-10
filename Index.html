@@ -1,196 +1,81 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
     <title>La Huequita Quiteña - Licorería</title>
-    <link rel="stylesheet" href="Estilo.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
-    <script defer src="Index.js"></script>
-    <script defer src="Carrito-de-compras.js"></script>
 </head>
 <body>
     <header>
         <div class="logo">
             <img src="/Imagenes/Logo La Huequita 200px.png" alt="Logo de La Huequita Quiteña">
             <h2 class="Nombre-empresa">La Huequita Quiteña</h2>
-        </div>            
-    </header> 
-    <nav class="mobile-nav">
-        <div class="dropdown">
-            <a href="#">Menú</a>
-            <div class="dropdown-content">
-                <a href="quienes-somos.js">Quienes somos</a>
-                <a href="como-comprar.js">Como comprar</a>
-                <a href="politica-devolucion.js">Política de devolución</a>
-                <a href="contacto.js">Contacto</a>
-                <a href="Productos">Productos</a>
-                <a href="Promociones">Promociones</a>
-            </div>
         </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" class="search-input" placeholder="Buscar...">
+            <button class="search-button" onclick="buscar()">Buscar</button>
+        </div>
+        <div id="results"></div>       
+    </header> 
+    <nav class="nav">
+        <ul class="menu">
+            <li class="boton-categoria">
+                <button id="todos" class="boton-menu active">Todos los productos</button>
+                <ul class="submenu">
+                    <li>
+                        <button id="todos" class="boton-menu active boton-categoría"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="promociones" class="boton-menu boton-categoría"><i class="bi bi-hand-index-thumb"></i>Promociones</button>
+                    </li>
+                    <li>
+                        <button id="mas-vendidos" class="boton-menu boton-categoría"><i class="bi bi-hand-index-thumb"></i>Productos más vendidos</button>
+                    </li>
+                    <li>
+                        <button id="wisky" class="boton-menu boton-categoría"><i class="bi bi-hand-index-thumb"></i>Wisky</button>
+                    </li>
+                    <li>
+                        <button id="aguardiente" class="boton-menu boton-categoría"><i class="bi bi-hand-index-thumb"></i>Aguardiente</button>
+                    </li>
+                    <li>
+                        <button id="vinos" class="boton-menu boton-categoría"><i class="bi bi-hand-index-thumb"></i>Vinos</button></li>
+                    <li>
+                        <button id="ron" class="boton-menu boton-categoría"><i class="bi bi-hand-index-thumb"></i>Ron</button>
+                    </li>
+                    <li>
+                        <button id="licor-de-hiervas" class="boton-menu boton-categoría"><i class="bi bi-hand-index-thumb"></i>Licor de Hiervas</button>
+                    </li>
+                    <li>
+                        <button id="tequila" class="boton-menu boton-categoría"><i class="bi bi-hand-index-thumb"></i>Tequila</button>
+                    </li>
+                    <li>
+                        <button id="gin" class="boton-menu boton-categoría"><i class="bi bi-hand-index-thumb"></i>Gin</button>
+                    </li>
+                </ul>
+            </li>
+            <button id="todos" class="boton-menu active"></i>Politicas de devolución</button>
+            <button id="todos" class="boton-menu active"></i>Historia</button>
+            <button id="todos" class="boton-menu active"></i>Contactanos</button>
+            <!-- Puedes agregar más elementos de menú aquí -->
+        </ul>
+        <button><a class="boton-menu boton-carrito" href="carrito.html"><i class="bi bi-cart-fill"></i>Carrito<span id="numerito" class="numerito">0</span></a></button>
     </nav>
-    
-    <nav class="desktop-nav">
-        <a href="quienes-somos.js">Quienes somos</a>
-        <a href="como-comprar.js">Como comprar</a>
-        <a href="politica-devolucion.js">Política de devolución</a>
-        <a href="contacto.js">Contacto</a>
-        <a href="Productos">Productos</a>
-        <a href="Promociones">Promociones</a>
-    </nav>
+
     <section class="fotos">
         <!-- Aquí puedes agregar tus imágenes -->
-        <img src="/Imagenes/La Huequita Quiteña.png" alt="La Huequita" style="width: 100%">    </section>
-    </main>
-
-    <div class="productos">
-        <div class="producto">
-            <img src="Imagenes/24563415.webp" alt="Jhonnie Rojo" style="width: 100%;">
-            <h2>Jhonnie rojo</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Aguardiente antioqueño.jpg" alt="Antioqueño" style="width: 100%;">
-            <h2>Antioqueño</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Ron Abuelo.jpg" alt="Ron Abuelo" style="width: 100%;">
-            <h2>Ron Estelar</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Whisky-John-Morris-Black-1000ml.png" alt="Jhon Morris" style="width: 100%;">
-            <h2>Jhon Morris Negro 1L</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Whisky-John-Morris-Black-1000ml.png" alt="Jhon Morris" style="width: 100%;">
-            <h2>Jhon Morris Negro 750</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/jaggermeister.webp" alt="JaggerMeister" style="width: 100%;">
-            <h2>JaggerMeister</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/whisky-something-special-1l0-1450x1450.png" alt="Wisky Something" style="width: 100%;">
-            <h2>Wisky Something</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/NORTEÑO-PREVIA-MINIATURA.jpg" alt="Norteño" style="width: 100%;">
-            <h2>Norteño 750 ml</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Norteño de media.jpg" alt="Jhonnie Rojo" style="width: 100%;">
-            <h2>Norteño 375 ml</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/GreenMate.jpg" alt="Green Mate" style="width: 100%;">
-            <h2>Green Mate</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Ron ronero" alt="Ron Ronero" style="width: 100%;">
-            <h2>Ron Ronero</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Ballantines.jpg" alt="Ballantines" style="width: 100%;">
-            <h2>Ballantines</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Vino alta gama.png" alt="Vino alta Gama" style="width: 100%;">
-            <h2>Vino Alta Gama</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/vino maipo.png" alt="Vino Maipo" style="width: 100%;">
-            <h2>Vino Maipo Cabernet</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Vino Maipo Merlot.jpg" alt="Vino Maipo" style="width: 100%;">
-            <h2>Vino Maipo Merlot</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Old times Rojo.webp" alt="Old Times Rojo" style="width: 100%;">
-            <h2>Wisky Old Times Rojo</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Old Times Negro.webp" alt="Old Times Negro" style="width: 100%;">
-            <h2>Wisky Old Times Negro</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Black Owl.jpg" alt="Black Owl" style="width: 100%;">
-            <h2>Black Owl</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Black castle.jpg" alt="Black Castle Canela" style="width: 100%;">
-            <h2>Wisky Black castel de Canela</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
-        <div class="producto">
-            <img src="Imagenes/Vino Reservado.jpg" alt="Vino Reservado" style="width: 100%;">
-            <h2>Vino Reservado</h2>
-            <p>Precio: $25</p>
-            <button class="agregar">Agregar al Carrito</button>
-        </div>
+        <img src="/Imagenes/La Huequita Quiteña.png" alt="La Huequita" style="width: 100%">
+    </section>
+    <div class="wrapper">
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!--Esto se va a rellenar con JS-->
+            </div>
+        </main>
+        <script src="main.js"></script>
     </div>
-    <div id="carrito">
-        <h3>Carrito de Compras</h3>
-        <ul id="lista-carrito"></ul>
-        <p>Total: <span id="total">$0</span></p>
-    </div>
-</main>
-<section class="registro">
-    <h2>Regístrate</h2>
-    <form action="procesar_registro.php" method="POST">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="contrasena">Contraseña:</label>
-        <input type="password" id="contrasena" name="contrasena" required>
-        
-        <button type="submit">Registrarse</button>
-    </form>
-</section>
-
-<p>&copy; 2023 La Huequita Quiteña. Todos los derechos reservados. Marca registrada &#174;</p>
-</footer>
-
 </body>
+<footer><p class="text-footer">2023 La Huequita Quiteña. Todos los derechos reservados. Marca registrada &#174;</p></footer>
 </html>
