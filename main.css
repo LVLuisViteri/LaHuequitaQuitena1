@@ -139,6 +139,9 @@ main {
     flex-direction: column;
     gap: 1.5rem;
 }
+.nav{
+    margin-left: 6rem;
+}
 
 .carrito-vacio,
 .carrito-comprado{
@@ -332,5 +335,13 @@ main {
         align-items: flex-start;
         top: 0;
         right: 0;
+    }
+    .nav{
+        margin-left: .3rem;
+    }
+    .boton-carrito{
+        position: absolute;
+        top: 16.2rem;
+        margin-left: 15rem;
     }
 }
