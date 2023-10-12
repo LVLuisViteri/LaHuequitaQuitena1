@@ -339,9 +339,7 @@ main {
     .nav{
         margin-left: .3rem;
     }
-    .boton-carrito{
-        position: absolute;
-        margin-left: 13rem;
-        top: .3rem;
+    .menu{
+        justify-content: space-around;
     }
 }
