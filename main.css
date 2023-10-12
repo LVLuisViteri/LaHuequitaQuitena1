@@ -341,7 +341,7 @@ main {
     }
     .boton-carrito{
         position: absolute;
-        top: 16.2rem;
-        margin-left: 15rem;
+        margin-left: 13rem;
+        top: .3rem;
     }
 }
