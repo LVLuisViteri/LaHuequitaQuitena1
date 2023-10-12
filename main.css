@@ -84,17 +84,6 @@ header{
     color: black;
     margin-bottom: 2rem;
 }
-.submenu li {
-    padding: 10px;
-}
-
-.submenu a {
-    text-decoration: none;
-    color: #333; /* Color del texto del submenú */
-}
-.submenu a:hover {
-    color: #007bff; /* Cambia el color del texto al pasar el cursor */
-}
 
 main {
     background-color: rgb(255, 255, 255);
@@ -282,6 +271,20 @@ main {
 .boton-carrito {
     background-color: #28a745; /* Color de fondo verde */
 }
+
+.abrir-menu{
+    display: none;
+}
+.nav-list{
+    display: flex;
+}
+.menu-normal{
+    display: flex;
+}
+.todos-los-menus{
+    display: flex;
+    justify-content: space-between;
+}
 /***media Queries***/
 
 @media screen and (max-width: 600px) {
@@ -290,4 +293,44 @@ main {
 
     }
     
+}
+@media screen and (max-width: 600px){
+    .abrir-menu{
+        display: block;
+    }
+    .menu-normal{
+        display: none;
+    }
+    .menu-categoría{
+        display: none;
+        flex-direction: column;
+        top: 0;
+    }
+    .menu-normal{
+        display: flex;
+        position: absolute;
+        margin-left: 9rem;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .boton-menu-normal{
+        flex-direction: column;
+    }
+    .boton-menu {
+        top: 0;
+        left: 0;
+        display: flex;
+    }
+    .nav {
+        display: block;
+        width: 100%;
+        position: absolute;
+    }
+    .sub-menu{
+        background-color: #555;
+        align-items: flex-start;
+        top: 0;
+        right: 0;
+    }
 }
