@@ -5,8 +5,9 @@ const contenedorCarritoProductos = document.querySelector("#carrito-productos");
 const contenedorCarritoAcciones = document.querySelector("#carrito-acciones");
 const contenedorCarritoComprado = document.querySelector("#carrito-comprado");
 let botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar")
-const botonVaciar = document.querySelector("#carrito-acciones-vaciar")
-const contenedorTotal = document.querySelector("#total")
+const botonVaciar = document.querySelector("#carrito-acciones-vaciar");
+const contenedorTotal = document.querySelector("#total");
+
 
 
 function cargarProductosCarrito(){
@@ -90,3 +91,33 @@ function actualizarTotal(){
     const totalCalculado = productosEnCarrito.reduce((acc, producto) => acc + (producto.precio * producto.cantidad), 0);
     contenedorTotal.innerText = `$${totalCalculado}`;
 }
+
+function generarMensajeWhatsApp() {
+    // Obtener los productos del carrito desde localStorage
+    const productosEnCarrito = JSON.parse(localStorage.getItem("productos-en-carrito"));
+  
+    // Construir el mensaje
+    let mensaje = "¡Hola! Quiero realizar la siguiente compra:\n";
+  
+    productosEnCarrito.forEach((producto, index) => {
+      mensaje += `${index + 1}. ${producto.titulo} - Cantidad: ${producto.cantidad} - Precio: $${producto.precio * producto.cantidad}\n`;
+    });
+  
+    mensaje += `\nTotal: $${calcularTotal()}\n`;
+  
+    // Puedes personalizar el mensaje según tus necesidades
+    return encodeURIComponent(mensaje);
+}
+
+document.getElementById("finalizar-compra").addEventListener("click", function () {
+    const mensaje = generarMensajeWhatsApp();
+    window.open(`https://wa.me/5521969142881${mensaje}`);
+  });
+
+  function calcularTotal() {
+    let totalCalculado = 0;
+    // Realiza los cálculos necesarios para obtener el total
+    // Por ejemplo, puedes usar los datos almacenados en `productosEnCarrito`
+    // para calcular el total.
+    return totalCalculado;
+  }
