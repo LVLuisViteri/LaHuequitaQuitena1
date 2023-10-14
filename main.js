@@ -4,7 +4,7 @@ const productos = [
     {
         id: "Jonnie Rojo",
         titulo: "Jonnie Rojo",
-        imagen: "./Imagenes/Wisky/Jonnie01.webp",
+        imagen: "./Im",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
@@ -91,6 +91,8 @@ const productos = [
         },
         precio: 25
     },
+    
+    
     // Aguardientes
     {
         id: "Antioqueño",
