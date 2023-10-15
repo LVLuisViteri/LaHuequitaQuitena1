@@ -2,14 +2,14 @@
 const productos = [
     // Wisky
     {
-        id: "Jonnie Rojo",
-        titulo: "Jonnie Rojo",
-        imagen: "./Im",
+        id: "Jonnie Rojo 750ml",
+        titulo: "Jonnie Rojo 750ml",
+        imagen: "./Imagenes/Wisky/Jonnie01.webp",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 25
+        precio: 26.50
     },
     {
         id: "Jhon Morris Negro 1L",
@@ -19,7 +19,7 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 25
+        precio: 19
     },
     {
         id: "Jhon Morris Negro 750 ml",
@@ -29,52 +29,52 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 25
+        precio: 16
     },
     {
-        id: "Something",
-        titulo: "Something",
+        id: "Something Special 750ml",
+        titulo: "Something Special 750ml",
         imagen: "./imagenes/Wisky/Something.png",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 25
+        precio: 24
     },
     {
-        id: "Ballantines",
-        titulo: "Ballantines",
+        id: "Ballantines 700ml",
+        titulo: "Ballantines 700ml",
         imagen: "./imagenes/Wisky/Ballantines.jpg",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 25
+        precio: 22
     },
     {
-        id: "Wisky Old Times Rojo",
-        titulo: "Wisky Old Times Rojo",
-        imagen: "./imagenes/Wisky/OTR.webp",
-        categoria: {
-            nombre: "Wisky",
-            id: "wisky"
-        },
-        precio: 15
-    },
-    {
-        id: "Wisky Old Times Negro",
-        titulo: "Wisky Old Times Negro",
+        id: "Old Times Negro 750ml",
+        titulo: "Old Times Negro 750ml",
         imagen: "./imagenes/Wisky/OTN.webp",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 16
+        precio: 16.50
     },
     {
-        id: "Black Owl",
-        titulo: "Black Owl",
+        id: "Black Owl 750ml",
+        titulo: "Black Owl 750ml",
         imagen: "./imagenes/Wisky/BlackOwl.jpg",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+       precio: 16
+    },
+    {
+        id: "Black Castel de Rojo 750ml ",
+        titulo: "Black Castel de Rojo 750ml ",
+        imagen: "./imagenes/Wisky/BCDC.jpg",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
@@ -90,6 +90,226 @@ const productos = [
             id: "wisky"
         },
         precio: 25
+    },
+    {
+        id: "BELLOWS 750M",
+        titulo: "BELLOWS 750M",
+        imagen: "./Imagenes/Wisky/Whisky-Bellows-750-ml.jpg",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 25
+    },
+    {
+        id: "BLACK AND WHITE 750ML",
+        titulo: "BLACK AND WHITE 750ML",
+        imagen: "",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 24
+    },
+    {
+        id: "CUNINGHAM 375ML",
+        titulo: "CUNINGHAM 375ML",
+        imagen: "./Imagenes/Wisky/wisky-cuningham-750ml.webp",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 7
+    },
+    {
+        id: "BLACK CASTLE NEGRO 750ML",
+        titulo: "BLACK CASTLE NEGRO 750ML",
+        imagen: "",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 15.50
+    },
+    {
+        id: "BLACK KING 750ML",
+        titulo: "BLACK KING 750ML",
+        imagen: "",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 11
+    },
+    {
+        id: "BLACK OWL FIRE 750ML",
+        titulo: "BLACK OWL FIRE 750ML",
+        imagen: "",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 17.50
+    },
+    {
+        id: "BLACK WILLIAMS 750ML",
+        titulo: "BLACK WILLIAMS 750ML",
+        imagen: "",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 15.50
+    },
+    {
+        id: "BUCHANAS 1LT",
+        titulo: "BUCHANAS 1LT",
+        imagen: "",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 90
+    },
+    {
+        id: "BUCHANANS 750ML",
+        titulo: "BUCHANANS 750ML",
+        imagen: "./Imagenes/Wisky/buchanas-750ml.webp",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 72
+    },
+    {
+        id: "CAMINERA VAT 69L",
+        titulo: "CAMINERA VAT 69",
+        imagen: "./Imagenes/Wisky/vat-69-180ml.webp",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 5
+    },
+    {
+        id: "CHIVAS REGAL 12 AÑOS 750ML",
+        titulo: "CHIVAS REGAL 12 AÑOS 750ML",
+        imagen: "./Imagenes/Wisky/chivas-12-anos-750-ml.jpg",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 58
+    },
+    {
+        id: "CUNINGHAM 750ML",
+        titulo: "CUNINGHAM 750ML",
+        imagen: "./Imagenes/Wisky/wisky-cuningham-750ml.webp",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 13
+    },
+    {
+        id: "GRAND OLD PARR 750ML",
+        titulo: "GRAND OLD PARR 750ML",
+        imagen: "./Imagenes/Wisky/Whisky-Blended-Grand-Old-Parr-12-anos-Garrafa-750ml.webp",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 61
+    },
+    {
+        id: "GRANTS 750ML",
+        titulo: "GRANTS 750ML",
+        imagen: "",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 21
+    },
+    {
+        id: "JHON MORRIS ROJO 1LT",
+        titulo: "JHON MORRIS ROJO 1LT",
+        imagen: "./Imagenes/Wisky/Jhon-Morris-1lt.webp",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 18
+    },
+    {
+        id: "JHON MORRIS ROJO 750ML",
+        titulo: "JHON MORRIS ROJO 750ML",
+        imagen: "./Imagenes/Wisky/Jhon-Morris-750ml.webp",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 15
+    },
+    {
+        id: "JHONNY NEGRO 750ML",
+        titulo: "JHONNY NEGRO 750ML",
+        imagen: "./Imagenes/Wisky/Jhonny-negro-750-ml.webp",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 72
+    },
+    {
+        id: "OLD TIMES NEGRO 375M",
+        titulo: "OLD TIMES NEGRO 375M",
+        imagen: "./Imagenes/Wisky/old-times-negro-375ml.jpg",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 9
+    },
+    {
+        id: "OLD TIMES ROJO 375ML",
+        titulo: "OLD TIMES ROJO 375ML",
+        imagen: "",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 8.50
+    },
+    {
+        id: "SPECIAL QUEEN 750ML",
+        titulo: "SPECIAL QUEEN 750ML",
+        imagen: "./Imagenes/Wisky/special-queen-750ml.jpg",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 8.50
+    },
+    {
+        id: "VAT 69 750MLL",
+        titulo: "VAT 69 750ML",
+        imagen: "./Imagenes/Wisky/vat69-750ml.jpg",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 17.50
+    },
+    {
+        id: "JACK DANIELS 750ML",
+        titulo: "JACK DANIELS 750ML",
+        imagen: "./Imagenes/Wisky/jack-daniels-750ml.webp",
+        categoria: {
+            nombre: "Wisky",
+            id: "wisky"
+        },
+        precio: 75
     },
     
     
