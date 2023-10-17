@@ -106,24 +106,30 @@ function generarMensajeWhatsApp() {
     mensaje += `\nTotal: $${calcularTotal()}\n`;
   
     // Puedes personalizar el mensaje según tus necesidades
-    return encodeURIComponent(mensaje);
+    return (mensaje);
 }
+// Generar el mensaje
+const mensaje = generarMensajeWhatsApp();
+
+// Almacenar el mensaje en el almacenamiento local
+localStorage.setItem("mensaje-whatsapp", mensaje);
 
 document.getElementById("finalizar-compra").addEventListener("click", function () {
     const numeroWhatsApp = "593992660222"; // Número de WhatsApp
 
-    // Crea el enlace de WhatsApp
-    const enlaceWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}`;
+    // Generar el mensaje
+    const mensaje = generarMensajeWhatsApp();
 
-    // Abre una nueva ventana de WhatsApp
-    const ventanaWhatsApp = window.open(enlaceWhatsApp);
+    // Codificar el mensaje en la URL
+    const mensajeCodificado = encodeURIComponent(mensaje);
 
-    // Después de abrir la ventana, genera el mensaje y colócalo en ella
-    ventanaWhatsApp.onload = function () {
-        const mensaje = generarMensajeWhatsApp();
-        ventanaWhatsApp.location.href = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${mensaje}`;
-    };
+    // Crear el enlace de WhatsApp con el mensaje codificado
+    const enlaceWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${mensajeCodificado}`;
+
+    // Abrir la ventana de WhatsApp
+    window.open(enlaceWhatsApp);
 });
+
 
 
   function calcularTotal() {
