@@ -111,13 +111,17 @@ function generarMensajeWhatsApp() {
 
 document.getElementById("finalizar-compra").addEventListener("click", function () {
     const mensaje = generarMensajeWhatsApp();
-    window.open(`https://wa.me/593992660222${mensaje}`);
+    window.open(`https://api.whatsapp.com/send?phone=593992660222${mensaje}`);
   });
 
   function calcularTotal() {
     let totalCalculado = 0;
-    // Realiza los cálculos necesarios para obtener el total
-    // Por ejemplo, puedes usar los datos almacenados en `productosEnCarrito`
-    // para calcular el total.
+    
+    if (productosEnCarrito && productosEnCarrito.length > 0) {
+        totalCalculado = productosEnCarrito.reduce((acc, producto) => {
+            return acc + (producto.precio * producto.cantidad);
+        }, 0);
+    }
+
     return totalCalculado;
-  }
+}
