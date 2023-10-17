@@ -111,7 +111,7 @@ function generarMensajeWhatsApp() {
 
 document.getElementById("finalizar-compra").addEventListener("click", function () {
     const mensaje = generarMensajeWhatsApp();
-    window.open(`https://wa.me/555391763215${mensaje}`);
+    window.open(`https://wa.me/5553991763215${mensaje}`);
   });
 
   function calcularTotal() {
