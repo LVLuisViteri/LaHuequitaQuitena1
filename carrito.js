@@ -110,10 +110,15 @@ function generarMensajeWhatsApp() {
 }
 
 document.getElementById("finalizar-compra").addEventListener("click", function () {
-    const mensaje = generarMensajeWhatsApp();
-    window.open(`https://api.whatsapp.com/send?phone=593992660222${mensaje}`);
-  });
+    const numeroWhatsApp = "593992660222"; // Número de WhatsApp
+    const mensaje = generarMensajeWhatsApp(); // Genera el mensaje
 
+    // Crea el enlace de WhatsApp
+    const enlaceWhatsApp = `https://api.whatsapp.com/send?phone=593992660222`;
+
+    // Abre una nueva ventana con el enlace de WhatsApp
+    window.open(enlaceWhatsApp);
+});
   function calcularTotal() {
     let totalCalculado = 0;
     
