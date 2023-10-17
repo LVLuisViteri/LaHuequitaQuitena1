@@ -121,7 +121,7 @@ document.getElementById("finalizar-compra").addEventListener("click", function (
     // Después de abrir la ventana, genera el mensaje y colócalo en ella
     ventanaWhatsApp.onload = function () {
         const mensaje = generarMensajeWhatsApp();
-        ventanaWhatsApp.location = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensaje)}`;
+        ventanaWhatsApp.location.href = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${mensaje}`;
     };
 });
 
