@@ -111,14 +111,21 @@ function generarMensajeWhatsApp() {
 
 document.getElementById("finalizar-compra").addEventListener("click", function () {
     const numeroWhatsApp = "593992660222"; // Número de WhatsApp
-    const mensaje = generarMensajeWhatsApp(); // Genera el mensaje
 
     // Crea el enlace de WhatsApp
-    const enlaceWhatsApp = `https://api.whatsapp.com/send?phone=593992660222`;
+    const enlaceWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}`;
 
-    // Abre una nueva ventana con el enlace de WhatsApp
-    window.open(enlaceWhatsApp);
+    // Abre una nueva ventana de WhatsApp
+    const ventanaWhatsApp = window.open(enlaceWhatsApp);
+
+    // Después de abrir la ventana, genera el mensaje y colócalo en ella
+    ventanaWhatsApp.onload = function () {
+        const mensaje = generarMensajeWhatsApp();
+        ventanaWhatsApp.location = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${mensaje}`;
+    };
 });
+
+
   function calcularTotal() {
     let totalCalculado = 0;
     
