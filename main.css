@@ -156,7 +156,7 @@ main {
     flex-direction: column;
     gap: 2rem;
 }
-.carrito-producto{
+.carrito-producto {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,7 +165,14 @@ main {
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
+    margin-bottom: 1rem; /* O ajusta la cantidad de margen deseada */
 }
+
+/* Establece un ancho del 100% para los elementos internos */
+.carrito-producto div {
+    width: 100%;
+}
+
 .carrito-producto small{
     font-size: .75rem;
 }
