@@ -1344,6 +1344,9 @@ const botonesCategorias = document.querySelectorAll('.boton-categoría');
 const tituloPrincipal = document.querySelector('#titulo-principal');
 let botonesAgregar = document.querySelectorAll('.producto-agregar');
 const numerito = document.querySelector('#numerito');
+const campoBusqueda = document.getElementById("searchInput");
+const botonBusqueda = document.querySelector(".search-button");
+const resultadosBusqueda = document.getElementById("results");
 
 
 function cargarProductos(productosElegidos){
@@ -1431,3 +1434,58 @@ function actualizarNumerito(){
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }
+function buscar() {
+    const consulta = campoBusqueda.value.toLowerCase();
+    const minCaracteres = 3; // Cambiar el valor mínimo de caracteres a 3
+
+    if (consulta.length >= minCaracteres) {
+        const resultados = productos.filter(producto => {
+            // Verifica si el título, el id o el id de la categoría incluyen la consulta
+            const tituloIncluye = producto.titulo.toLowerCase().includes(consulta);
+            const idIncluye = producto.id.toLowerCase().includes(consulta);
+            const categoriaIdIncluye = producto.categoria.id.toLowerCase().includes(consulta);
+
+            return tituloIncluye || idIncluye || categoriaIdIncluye;
+        });
+        mostrarResultados(resultados);
+    } else {
+        resultadosBusqueda.innerHTML = ""; // Borra los resultados si no se cumple el mínimo de caracteres
+    }
+}
+
+
+// Agrega un evento de tecla presionada para buscar mientras se escribe
+campoBusqueda.addEventListener("input", buscar);
+
+// Función para mostrar los resultados de la búsqueda
+function mostrarResultados(resultados) {
+    resultadosBusqueda.innerHTML = "";
+
+    if (resultados.length === 0) {
+        resultadosBusqueda.innerHTML = "<p>No se encontraron productos.</p>";
+    } else {
+        resultados.forEach(producto => {
+            const div = document.createElement("div");
+            div.classList.add("producto");
+            div.innerHTML = `
+                <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+                <div class="producto-detalle">
+                    <h3 class="producto-titulo">${producto.titulo}</h3>
+                    <p class="producto-precio">$${producto.precio}</p>
+                    <button class="producto-agregar" id="${producto.id}">Agregar</button>
+                </div>
+            `;
+
+            resultadosBusqueda.append(div);
+        });
+
+        // Actualiza los botones de agregar
+        actualizarBotonesAgregar();
+    }
+}
+
+// Agrega un evento de clic al botón de búsqueda
+botonBusqueda.addEventListener("click", buscar);
+
+// Agrega un evento de tecla presionada para buscar mientras se escribe
+campoBusqueda.addEventListener("input", buscar);
