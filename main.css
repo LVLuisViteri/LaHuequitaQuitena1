@@ -282,18 +282,18 @@ main {
 }
 
         /* Estilos para los resultados */
-        #results {
-            margin-top: 20px;
-        }
-        
-        .boton-menu:hover {
-            background-color: #555; /* Color de fondo al pasar el ratón sobre el botón */
-        }
-        
-        #results img {
-            max-width: 120px; /* Establece el tamaño máximo de las imágenes en 120px */
-        }
-        
+#results {
+    margin-top: 20px;
+}
+
+.boton-menu:hover {
+    background-color: #555; /* Color de fondo al pasar el ratón sobre el botón */
+}
+
+#results img {
+    max-width: 120px; /* Establece el tamaño máximo de las imágenes en 120px */
+}
+
 /* Estilos adicionales para los botones (boton-volver y boton-carrito) */
 .boton-volver {
     background-color: #007bff; /* Color de fondo azul */
