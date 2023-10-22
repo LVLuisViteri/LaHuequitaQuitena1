@@ -204,7 +204,7 @@ main {
     margin-top: 2rem;
 }
 .carrito-acciones-derecha{
-    display: flex;  
+    display: flex;      
 }
 
 .carrito-acciones-total{
@@ -237,6 +237,21 @@ main {
     display: none;
 }
 
+#finalizar-compra {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    background-color: #25d366; /* Color de WhatsApp */
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    line-height: 50px; /* Ajusta el valor para centrar el texto verticalmente */
+}
+#finalizar-compra:hover {
+    background-color: #128c7e; /* Cambia el color al pasar el mouse */
+}
 
 
  /* Estilos para la barra de búsqueda y el botón */
@@ -267,14 +282,18 @@ main {
 }
 
         /* Estilos para los resultados */
-#results {
-    margin-top: 20px;
-}
-
-.boton-menu:hover {
-    background-color: #555; /* Color de fondo al pasar el ratón sobre el botón */
-}
-
+        #results {
+            margin-top: 20px;
+        }
+        
+        .boton-menu:hover {
+            background-color: #555; /* Color de fondo al pasar el ratón sobre el botón */
+        }
+        
+        #results img {
+            max-width: 120px; /* Establece el tamaño máximo de las imágenes en 120px */
+        }
+        
 /* Estilos adicionales para los botones (boton-volver y boton-carrito) */
 .boton-volver {
     background-color: #007bff; /* Color de fondo azul */
@@ -291,5 +310,50 @@ main {
         grid-template-columns: 1fr;
 
     }
+    .carrito-producto {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centra verticalmente los elementos */
+        background-color: rgb(235, 235, 235);
+        color: black;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
     
+    /* Establece un ancho del 100% para los elementos internos */
+    .carrito-producto div {
+        width: 100%;
+    }
+    .carrito-acciones {
+        display: flex;
+        flex-direction: column; /* Cambia la disposición a columna */
+        align-items: center; /* Centra horizontalmente los elementos */
+    }
+    
+    
+    .carrito-acciones-total {
+        display: flex;
+        flex-direction: column; /* Cambia la disposición a columna */
+        align-items: center; /* Centra horizontalmente los elementos */
+        margin-top: 1rem;
+    }
+    #finalizar-compra {
+        display: inline-block;
+        padding: 8px 16px;
+        border: none;
+        background-color: #25d366; /* Color de WhatsApp */
+        color: #fff;
+        border-radius: 5px;
+        font-size: 16px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+    
+    #finalizar-compra:hover {
+        background-color: #128c7e; /* Cambia el color al pasar el mouse */
+    }
+    .disabled{
+        display: none;
+}
 }
