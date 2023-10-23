@@ -134,6 +134,8 @@ header{
 .cerrar-menu {
     color: #128c7e; /* Cambiamos el color de texto a #128c7e */
     cursor: pointer;
+    text-align: right;
+    text-size-adjust: 2rem;
 }
 .cerrar-menu:hover {
     color: #fff; /* Cambiamos el color de texto al hacer hover */
