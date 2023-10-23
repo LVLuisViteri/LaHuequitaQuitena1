@@ -1338,12 +1338,13 @@ const productos = [
     }
 
 ];
-
 const contenedorProductos = document.querySelector('#contenedor-productos');
 const botonesCategorias = document.querySelectorAll('.boton-categoría');
 const tituloPrincipal = document.querySelector('#titulo-principal');
 let botonesAgregar = document.querySelectorAll('.producto-agregar');
-const numerito = document.querySelector('#numerito');
+const hamburguesaIcono = document.querySelector(".hamburguesa-icono");
+const menuHamburguesa = document.querySelector(".menu-hamburguesa");
+const enlacesMenu = document.querySelectorAll(".menu-principal a");
 const campoBusqueda = document.getElementById("searchInput");
 const botonBusqueda = document.querySelector(".search-button");
 const resultadosBusqueda = document.getElementById("results");
@@ -1368,9 +1369,11 @@ function cargarProductos(productosElegidos){
 
         contenedorProductos.append(div)
 
-    })
-
+    });
+    //Ejecutas las siguientes acciones para abrir el menu desplegable y actualizar botones agregar
+    abrirMenuHamburguesa(); 
     actualizarBotonesAgregar();
+    cerrarMenuHamburguesa();
 }
 
 cargarProductos(productos);
@@ -1429,11 +1432,11 @@ function agregarAlCarrito(e){
 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 }
-
 function actualizarNumerito(){
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }
+
 function buscar() {
     const consulta = campoBusqueda.value.toLowerCase();
     const minCaracteres = 3; // Cambiar el valor mínimo de caracteres a 3
@@ -1484,8 +1487,40 @@ function mostrarResultados(resultados) {
     }
 }
 
-// Agrega un evento de clic al botón de búsqueda
 botonBusqueda.addEventListener("click", buscar);
 
-// Agrega un evento de tecla presionada para buscar mientras se escribe
 campoBusqueda.addEventListener("input", buscar);
+
+
+function abrirMenuHamburguesa() {
+    menuHamburguesa.style.left = "0";
+}
+
+// Función para cerrar el menú hamburguesa
+function cerrarMenuHamburguesa() {
+    menuHamburguesa.style.left = "-250px"; // Oculta el menú deslizándolo hacia la izquierda
+}
+
+// Agregar evento de clic al botón de hamburguesa
+hamburguesaIcono.addEventListener("click", () => {
+    const menuVisible = getComputedStyle(menuHamburguesa).left === "0px";
+
+    if (menuVisible) {
+        cerrarMenuHamburguesa();
+    } else {
+        abrirMenuHamburguesa();
+    }
+});
+
+// Agregar evento de clic a los enlaces del menú para cerrarlo al hacer clic en un enlace
+enlacesMenu.forEach((enlace) => {
+    enlace.addEventListener("click", cerrarMenuHamburguesa);
+});
+
+const cerrarMenu = document.querySelector(".cerrar-menu");
+
+function cerrarMenuHamburguesa() {
+    menuHamburguesa.style.left = "-250px"; 
+}
+
+cerrarMenu.addEventListener("click", cerrarMenuHamburguesa);

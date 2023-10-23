@@ -30,8 +30,8 @@ function cargarProductosCarrito() {
                     <h3>${producto.titulo}</h3>
                 </div>
                 <div class="carrito-producto-cantidad">
-                    <small>${producto.cantidad}</small>
-                    <p>1</p>
+                    <small>Cantidad</small>
+                    <p>${producto.cantidad}</p>
                 </div>
                 <div class="carrito-producto-precio">
                     <small>Precio</small>
