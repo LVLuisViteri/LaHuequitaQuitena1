@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="main.css">
-    <title>La Huequita Quiteña - Licorería</title>
+    <title>La Huequita Quiteña - Mi Blog</title>
 </head>
 <body>
     <header>
@@ -21,15 +21,45 @@
         </div>
         <div id="results"></div>
     </header>
-    <section class="fotos">
-        <!-- Aquí puedes agregar tus imágenes -->
-        <img src="./Imagenes/La Huequita Quiteña.png" alt="La Huequita" style="width: 100%">
-    </section>
-    <div class="hamburguesa-icono">
+    <div class="hamburguesa-icono" id="hamburguesa-icono">
         <div class="barra"></div>
         <div class="barra"></div>
         <div class="barra"></div>
     </div>
     </header>
+    <div class="menu-main">
+        <nav class="menu-hamburguesa oculto" id="menu-hamburguesa">
+            <div class="cerrar-menu">X</div>
+            <ul class="menu-principal">
+                <li>
+                    <a href="Index.html" class="boton-menu active boton-categoría">Seguir Comprando</a>
+                </li>
+                <li>
+                    <a href="politicas-de-devolucion.html" class="boton-menu active boton-categoría">Políticas de Devolución</a>
+                </li>
+                <li>
+                    <a href="historia.html" class="boton-menu active boton-categoría">Historia</a>
+                </li>
+                <li>
+                    <button id="contactanos" class="boton-menu active boton-categoría">Contáctanos</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="blog-entries">
+        <div class="blog-entry">
+            <h3>Explorando los Sabores del Vino y Licores en Mi Viaje por América del Sur con La Huequita Quiteña</h3>
+            <img src="/Imagenes/Blog/La-huequita-quiteña-SudAmerica.jpg" alt="Sudamerica Alcoholica - La Huequita Quiteña">
+            <p>¡Hola a todos! Mi nombre es Luis, y soy un viajero, mochilero y nómada digital que emprendió un emocionante viaje desde Quito, Ecuador, a través de Sudamérica para explorar el apasionante mundo de los licores, el vino, la cultura y la gastronomía en nuestra hermosa región. Lo mejor de todo es que este viaje es posible gracias a mi trabajo en la Licorería "La Huequita Quiteña", lo que me ha permitido combinar mi pasión por los viajes con mi amor por los licores. Además, este empleo me proporciona los recursos necesarios para continuar mi exploración por los rincones más encantadores de América del Sur.</p>
+            <img src="/Imagenes/Blog/Mochilero por Sudamerica - La Huequita Quiteña.jpg" alt="Mochilero por sudamerica - La huequita Quiteña">
+            <h4>¿Qué es La Huequita Quiteña?</h4>
+            <p>"La Huequita Quiteña" es mucho más que una simple licorería. Es un lugar donde los amantes de los licores encuentran una selección excepcional de bebidas, un equipo apasionado por el mundo de los licores y un compromiso constante con la calidad y la satisfacción del cliente. Aquí, no solo encontrarás una amplia variedad de licores y vinos, sino también la conveniencia de entrega a domicilio en todo Quito.</p>
+            <img src="imagen2.jpg" alt="Descripción de la Imagen 2">
+            <a class="styled-link" href="entrada1.html">Leer más</a>
+        </div>
+        <!-- Más entradas de blog... -->
+    </section>
+    <script src="blog.js"></script>
 </body>
+<footer><p class="text-footer">2023 La Huequita Quiteña. Todos los derechos reservados. Marca registrada &#174;</p></footer>
 </html>
