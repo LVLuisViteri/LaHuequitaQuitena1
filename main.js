@@ -9,7 +9,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 26.50
+        precio: 26.50,
+        alt: "Botella de Jonnie Rojo 750ml de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Jhon Morris Negro 1L",
@@ -19,7 +20,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 19
+        precio: 19,
+        alt: "Botella de Jhon Morris Negro 1L de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Jhon Morris Negro 750 ml",
@@ -29,7 +31,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 16
+        precio: 16,
+        alt: "Botella de Jhon Morris Negro 750 ml de wisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Something Special 750ml",
@@ -39,7 +42,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 24
+        precio: 24,
+        alt: "Botella de Something Special 750ml de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Ballantines 700ml",
@@ -49,7 +53,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 22
+        precio: 22,
+        alt: "Botella de Ballantines 700ml de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Old Times Negro 750ml",
@@ -59,7 +64,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 16.50
+        precio: 16.50,
+        alt: "Botella Old Times Negro 750ml de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Black Owl 750ml",
@@ -69,7 +75,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-       precio: 16
+       precio: 16,
+       alt: "Botella Black Owl 750ml de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Black Castel de Canela",
@@ -79,7 +86,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 25
+        precio: 25,
+        alt: "Botella Black Castel de Canela de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BELLOWS 750M",
@@ -89,7 +97,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 25
+        precio: 25,
+        alt: "Botella de BELLOWS 750M de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BLACK AND WHITE 750ML",
@@ -99,7 +108,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 24
+        precio: 24,
+        alt: "Botella de BLACK AND WHITE 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CUNINGHAM 375ML",
@@ -109,7 +119,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 7
+        precio: 7,
+        alt: "Botella de CUNINGHAM 375ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BLACK CASTLE NEGRO 750ML",
@@ -119,7 +130,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 15.50
+        precio: 15.50,
+        alt: "Botella de BLACK CASTLE NEGRO 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BLACK KING 750ML",
@@ -129,7 +141,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 11
+        precio: 11,
+        alt: "Botella de BLACK KING 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BLACK OWL FIRE 750ML",
@@ -139,7 +152,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 17.50
+        precio: 17.50,
+        alt: "Botella de BLACK OWL FIRE 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BLACK WILLIAMS 750ML",
@@ -149,7 +163,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 15.50
+        precio: 15.50,
+        alt: "Botella de BLACK WILLIAMS 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BUCHANAS 1LT",
@@ -159,7 +174,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 90
+        precio: 90,
+        alt: "Botella de BUCHANAS 1LT de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BUCHANANS 750ML",
@@ -169,17 +185,19 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 72
+        precio: 72,
+        alt: "Botella de BUCHANANS 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
-        id: "CAMINERA VAT 69L",
+        id: "CAMINERA VAT 69",
         titulo: "CAMINERA VAT 69",
         imagen: "./Imagenes/Wisky/vat-69-180ml.webp",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 5
+        precio: 5,
+        alt: "Botella de CAMINERA VAT 69 de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CHIVAS REGAL 12 AÑOS 750ML",
@@ -189,7 +207,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 58
+        precio: 58,
+        alt: "Botella de CHIVAS REGAL 12 AÑOS 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CUNINGHAM 750ML",
@@ -199,7 +218,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 13
+        precio: 13,
+        alt: "Botella de CUNINGHAM 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GRAND OLD PARR 750ML",
@@ -209,7 +229,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 61
+        precio: 61,
+        alt: "Botella de GRAND OLD PARR 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GRANTS 750ML",
@@ -219,7 +240,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 21
+        precio: 21,
+        alt: "Botella de GRANTS 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "JHON MORRIS ROJO 1LT",
@@ -229,7 +251,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 18
+        precio: 18,
+        alt: "Botella de JHON MORRIS ROJO 1LT de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "JHON MORRIS ROJO 750ML",
@@ -239,7 +262,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 15
+        precio: 15,
+        alt: "Botella de JHON MORRIS ROJO 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "JHONNY NEGRO 750ML",
@@ -249,7 +273,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 72
+        precio: 72,
+        alt: "Botella de JHONNY NEGRO 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "OLD TIMES NEGRO 375M",
@@ -259,7 +284,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 9
+        precio: 9,
+        alt: "Botella de OLD TIMES NEGRO 375M de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "OLD TIMES ROJO 375ML",
@@ -269,7 +295,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 8.50
+        precio: 8.50,
+        alt: "Botella de OLD TIMES ROJO 375ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "SPECIAL QUEEN 750ML",
@@ -279,7 +306,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 8.50
+        precio: 8.50,
+        alt: "Botella de SPECIAL QUEEN 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "VAT 69 750MLL",
@@ -289,7 +317,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 17.50
+        precio: 17.50,
+        alt: "Botella de VAT 69 750MLL de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "JACK DANIELS 750ML",
@@ -299,7 +328,8 @@ const productos = [
             nombre: "Wisky",
             id: "wisky"
         },
-        precio: 75
+        precio: 75,
+        alt: "Botella de JACK DANIELS 750ML de whisky - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     
     
@@ -312,7 +342,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 20
+        precio: 20,
+        alt: "Botella de Antioqueño Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Norteño 750 ml",
@@ -322,7 +353,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 90
+        precio: 90,
+        alt: "Botella de Norteño 750 ml Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Norteño 375 ml",
@@ -332,7 +364,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 4.50
+        precio: 4.50,
+        alt: "Botella de Norteño 375 ml Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GUARO DE MI PUEBLO  750ML",
@@ -342,7 +375,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 9
+        precio: 9,
+        alt: "Botella de GUARO DE MI PUEBLO  750ML  de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "PAISA AZUL 750ML",
@@ -352,7 +386,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 11
+        precio: 11,
+        alt: "Botella de PAISA AZUL 750ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ANTIOQUEÑO 1LT",
@@ -362,7 +397,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 25
+        precio: 25,
+        alt: "Botella de ANTIOQUEÑO 1LT de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ANTIOQUEÑO 375ML",
@@ -372,7 +408,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 12
+        precio: 12,
+        alt: "Botella de ANTIOQUEÑO Aguardiente 375ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CAÑA MANABITA 375ML",
@@ -382,7 +419,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 6
+        precio: 6,
+        alt: "Botella de CAÑA MANABITA 375ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CAÑA MANABITA 750ML",
@@ -392,7 +430,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 11.50
+        precio: 11.50,
+        alt: "Botella de CAÑA MANABITA 750ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CRISTAL 375ML",
@@ -402,7 +441,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 5.50
+        precio: 5.50,
+        alt: "Botella de CRISTAL 375ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CRISTAL 750 ML",
@@ -412,7 +452,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 10.50
+        precio: 10.50,
+        alt: "Botella de CRISTAL 750 ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "NECTAR AZUL 750ML",
@@ -422,7 +463,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 18
+        precio: 18,
+        alt: "Botella de NECTAR AZUL 750ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ORIGEN ANIZADO 375ML",
@@ -432,8 +474,10 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 4.50
-    },    {
+        precio: 4.50,
+        alt: "Botella de ORIGEN ANIZADO 375ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
+    },    
+    {
         id: "ORIGEN ANIZADO 750ML",
         titulo: "ORIGEN ANIZADO 750ML",
         imagen: "./imagenes/Aguardiente/",
@@ -441,8 +485,10 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 7
-    },    {
+        precio: 7,
+        alt: "Botella de ORIGEN ANIZADO 750ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
+    },    
+    {
         id: "PAISA CEREZA 375ML",
         titulo: "PAISA CEREZA 375ML",
         imagen: "./imagenes/Aguardiente/paisa-cereza-375ml.jpg",
@@ -450,7 +496,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 18
+        precio: 18,
+        alt: "Botella de PAISA CEREZA 375ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "PAISA CEREZA 750ML",
@@ -460,7 +507,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 18
+        precio: 18,
+        alt: "Botella de PAISA CEREZA 750ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "TROPICO 375ML",
@@ -470,7 +518,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 18
+        precio: 18,
+        alt: "Botella de TROPICO 375ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "TROPICO 750ML",
@@ -480,7 +529,8 @@ const productos = [
             nombre: "Aguardiente",
             id: "aguardiente"
         },
-        precio: 18
+        precio: 18,
+        alt: "Botella deTROPICO 750ML de Aguardiente - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
 
     //Vinos
@@ -492,7 +542,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 9
+        precio: 9,
+        alt: "Botella de ALTA GAMA CABERNET de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Maipo Cabernet",
@@ -502,7 +553,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 10
+        precio: 10,
+        alt: "Botella de Maipo Cabernet de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Maipo Merlot",
@@ -512,7 +564,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 10
+        precio: 10,
+        alt: "Botella de Maipo Merlot  de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CRUZARES 750ML",
@@ -522,7 +575,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 9
+        precio: 9,
+        alt: "Botella de CRUZARES de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ANTHONY FRESA 750ML",
@@ -532,7 +586,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 9
+        precio: 9,
+        alt: "Botella de ANTHONY FRESA de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BALDORE  DURAZNO",
@@ -542,7 +597,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 2.80
+        precio: 2.80,
+        alt: "Vino de carton BAlDORE DURAZNO - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CASILLERO DEL DIABLO 750ML",
@@ -552,7 +608,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 26
+        precio: 26,
+        alt: "Botella de CASILLERO DEL DIABLO de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CLOSS DE PIRQUE CABERNET 1LT",
@@ -562,7 +619,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 10
+        precio: 10,
+        alt: "Botella de CLOSS DE PIRQUE CABERNET de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GATO NEGRO 750ML",
@@ -572,7 +630,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 15
+        precio: 15,
+        alt: "Botella de GATO NEGRO de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "MAIPO BLANCO 750ML",
@@ -582,7 +641,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 15
+        precio: 15,
+        alt: "Botella de MAIPO BLANCO de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "PLANICIE 750ML",
@@ -592,7 +652,8 @@ const productos = [
             nombre: "Vinos",
             id: "vinos"
         },
-        precio: 15
+        precio: 15,
+        alt: "Botella de PLANICIE de Vino - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     // Ron
     {
@@ -603,7 +664,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 11
+        precio: 11,
+        alt: "Botella de Ron Estelar - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Abuelo",
@@ -613,7 +675,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 15.50
+        precio: 15.50,
+        alt: "Botella de Ron Abuelo - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "Ron Ronero 750ml",
@@ -623,7 +686,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 15
+        precio: 15,
+        alt: "Botella de Ron Ronero - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "100 FUEGOS 375ML",
@@ -633,7 +697,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 9
+        precio: 9,
+        alt: "Botella de 100 FUEGOS 375ML de Ron - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "100 FUEGOS 750ML",
@@ -643,7 +708,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 16
+        precio: 16,
+        alt: "Botella de 100 FUEGOS 750ML de Ron - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "100 FUEGOS LATA 350ML",
@@ -653,7 +719,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 2.50
+        precio: 2.50,
+        alt: "100 FUEGOS LATA 350ML ron con cola - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ABUELO 375ML",
@@ -663,7 +730,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 8
+        precio: 8,
+        alt: "Botella de RON ABUELO - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CASTILLO AÑEJO 375ML",
@@ -673,7 +741,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 7.50
+        precio: 7.50,
+        alt: "Botella de Ron CASTILLO AÑEJO - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CASTILLO AÑEJO 750ML",
@@ -683,7 +752,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 14
+        precio: 14,
+        alt: "Botella de Ron CASTILLO AÑEJO 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CORTEZ 750ML",
@@ -693,7 +763,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 12
+        precio: 12,
+        alt: "Ron CORTEZ 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "RON DEL RIO 750ML",
@@ -703,7 +774,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 9
+        precio: 9,
+        alt: "RON DEL RIO 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "DON CASTELO 1LT",
@@ -713,7 +785,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 9
+        precio: 9,
+        alt: "Ron DON CASTELO 1LT - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ESTELAR ORO 375ML",
@@ -723,7 +796,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 5.50
+        precio: 5.50,
+        alt: "Ron ESTELAR ORO 375ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GENIO TAPA NEGRA 750ML",
@@ -733,7 +807,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 8
+        precio: 8,
+        alt: "Ron GENIO TAPA NEGRA 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GENIO TAPA ROJA 750ML",
@@ -743,7 +818,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 5.50
+        precio: 5.50,
+        alt: "Ron GENIO TAPA ROJA 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "PON PON 750ML",
@@ -753,7 +829,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 6
+        precio: 6,
+        alt: "Ron PON PON 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "SAN MIGUEL ORO 750ML",
@@ -763,7 +840,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 13
+        precio: 13,
+        alt: "Ron SAN MIGUEL ORO 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "VIEJO DE CALDAS 750ML",
@@ -773,7 +851,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 17
+        precio: 17,
+        alt: "Ron  VIEJO DE CALDAS 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "SAN MIGUEL SILVER PLATA 750ML",
@@ -783,7 +862,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 13
+        precio: 13,
+        alt: "Botella de Ron SAN MIGUEL SILVER PLATA 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "BACARDI BLANCO 980ML",
@@ -793,7 +873,8 @@ const productos = [
             nombre: "Ron",
             id: "ron"
         },
-        precio: 22
+        precio: 22,
+        alt: "Botella de Ron BACARDI BLANCO - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
 
     //Licor de Hiervas
@@ -805,17 +886,19 @@ const productos = [
             nombre: "Licor de hiervas",
             id: "licor-de-hiervas"
         },
-        precio: 35
+        precio: 35,
+        alt: "Botella de Jagermeister de Licor de Hiervas - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
-        id: "Green mate",
-        titulo: "Green mate",
+        id: "Green mate 750ml",
+        titulo: "Green mate 750ml",
         imagen: "./imagenes/Licor de Hiervas/GreenMate.jpg",
         categoria: {
             nombre: "Licor de hiervas",
             id: "licor-de-hiervas"
         },
-        precio: 15
+        precio: 15,
+        alt: "Botella de Green mate 750ml de Licor de Hiervas - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GREEN MATE 345ML",
@@ -825,7 +908,8 @@ const productos = [
             nombre: "Licor de hiervas",
             id: "licor-de-hiervas"
         },
-        precio: 7.50
+        precio: 7.50,
+        alt: "Botella de GREEN MATE 345ML de Licor de Hiervas - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     //Tequila
     {
@@ -836,7 +920,8 @@ const productos = [
             nombre: "tequila",
             id: "tequila"
         },
-        precio: 11
+        precio: 11,
+        alt: "Botella de TEKILAZO 750ML de Tequila - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "TEQUILA AZTECA BLANCO 750ML",
@@ -846,7 +931,8 @@ const productos = [
             nombre: "tequila",
             id: "tequila"
         },
-        precio: 20
+        precio: 20,
+        alt: "Botella de TEQUILA AZTECA BLANCO 750ML de Tequila - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "TEQUILA EL CHARRO 750ML",
@@ -856,7 +942,8 @@ const productos = [
             nombre: "tequila",
             id: "tequila"
         },
-        precio: 21
+        precio: 21,
+        alt: "Botella de TEQUILA EL CHARRO 750ML de Tequila - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "TEQUILA RANCHO PUEBLO VIEJO 750ML",
@@ -866,7 +953,8 @@ const productos = [
             nombre: "tequila",
             id: "tequila"
         },
-        precio: 19
+        precio: 19,
+        alt: "Botella de TEQUILA RANCHO PUEBLO VIEJO 750ML de Tequila - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     //Vodka
     {
@@ -877,7 +965,8 @@ const productos = [
             nombre: "vodka",
             id: "vodka"
         },
-        precio: 2.80
+        precio: 2.80,
+        alt: "BALDORE VODKA 750ML de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "LIOVA 750ML",
@@ -887,7 +976,8 @@ const productos = [
             nombre: "vodka",
             id: "vodka"
         },
-        precio: 12
+        precio: 12,
+        alt: "Botella de LIOVA 750ML de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "RUSSKAYA 750ML",
@@ -897,7 +987,8 @@ const productos = [
             nombre: "vodka",
             id: "vodka"
         },
-        precio: 14
+        precio: 14,
+        alt: "Botella de RUSSKAYA 750ML de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "SIBERIAN 750ML",
@@ -907,7 +998,8 @@ const productos = [
             nombre: "vodka",
             id: "vodka"
         },
-        precio: 12
+        precio: 12,
+        alt: "Botella de SIBERIAN 750ML de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "SKY 750ML",
@@ -917,7 +1009,8 @@ const productos = [
             nombre: "vodka",
             id: "vodka"
         },
-        precio: 20
+        precio: 20,
+        alt: "Botella de SKY 750ML de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "SMIRNOFF ROJA 750ML",
@@ -927,7 +1020,8 @@ const productos = [
             nombre: "vodka",
             id: "vodka"
         },
-        precio: 17
+        precio: 17,
+        alt: "Botella de SMIRNOFF ROJA 750ML de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "SWITCH",
@@ -937,7 +1031,8 @@ const productos = [
             nombre: "vodka",
             id: "vodka"
         },
-        precio: 3.50
+        precio: 3.50,
+        alt: "Botella de SWITCH de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "VODKA 40 750ML",
@@ -947,7 +1042,8 @@ const productos = [
             nombre: "vodka",
             id: "vodka"
         },
-        precio: 6
+        precio: 6,
+        alt: "Botella de VODKA 40 750ML de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "VODKA ROMANOSKI",
@@ -957,7 +1053,8 @@ const productos = [
             nombre: "vodka",
             id: "vodka"
         },
-        precio: 12.50
+        precio: 12.50,
+        alt: "Botella de VODKA ROMANOSKI de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
 
     //Zhumir
@@ -970,7 +1067,8 @@ const productos = [
             nombre: "zhumir",
             id: "zhumir"
         },
-        precio: 4.50
+        precio: 4.50,
+        alt: "Botella de ZHUMIR DURAZNO 375ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ZHUMIR DURAZNO 700ML",
@@ -980,7 +1078,8 @@ const productos = [
             nombre: "zhumir",
             id: "zhumir"
         },
-        precio: 7.50
+        precio: 7.50,
+        alt: "Botella de ZHUMIR DURAZNO 700ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ZHUMIR PLUG",
@@ -990,7 +1089,8 @@ const productos = [
             nombre: "zhumir",
             id: "zhumir"
         },
-        precio: 7.50
+        precio: 7.50,
+        alt: "Botella de ZHUMIR PLUG de Zhumir - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ZHUMIR SANDIA PINK 750ML",
@@ -1000,7 +1100,8 @@ const productos = [
             nombre: "zhumir",
             id: "zhumir"
         },
-        precio: 11
+        precio: 11,
+        alt: "Botella de ZHUMIR SANDIA PINK 750ML - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "RON ZHUMIR",
@@ -1010,7 +1111,8 @@ const productos = [
             nombre: "zhumir",
             id: "zhumir"
         },
-        precio: 14
+        precio: 14,
+        alt: "Botella de RON ZHUMIR - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ZHUMIR NARANJILLA 750",
@@ -1020,7 +1122,8 @@ const productos = [
             nombre: "zhumir",
             id: "zhumir"
         },
-        precio: 8
+        precio: 8,
+        alt: "Botella de ZHUMIR NARANJILLA 750 - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "ZHUMIR NARANJILLA 375ML",
@@ -1030,7 +1133,8 @@ const productos = [
             nombre: "zhumir",
             id: "zhumir"
         },
-        precio: 4.50
+        precio: 4.50,
+        alt: "Botella de      de Zhumir - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "PIÑA COLADA ZHUMIR 750ML",
@@ -1040,7 +1144,8 @@ const productos = [
             nombre: "zhumir",
             id: "zhumir"
         },
-        precio: 13.50
+        precio: 13.50,
+        alt: "Botella de PIÑA COLADA ZHUMIR 750ML de Vodka - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     
     //Gin
@@ -1053,7 +1158,8 @@ const productos = [
             nombre: "gin",
             id: "gin"
         },
-        precio: 14
+        precio: 14,
+        alt: "Botella de GIN BOND 750ML de Gin - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GIN UNDER LONDON DRY",
@@ -1063,7 +1169,8 @@ const productos = [
             nombre: "gin",
             id: "gin"
         },
-        precio: 16.50
+        precio: 16.50,
+        alt: "Botella de GIN UNDER LONDON DRY de Gin - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GIN W LONDON AZUL",
@@ -1073,7 +1180,8 @@ const productos = [
             nombre: "gin",
             id: "gin"
         },
-        precio: 18
+        precio: 18,
+        alt: "Botella de GIN W LONDON AZUL de Gin - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
 
     //Champagne
@@ -1086,7 +1194,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 8
+        precio: 8,
+        alt: "Botella de GRAND DUVAL de Champagne - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "GRAND VANDUSH",
@@ -1096,7 +1205,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 8
+        precio: 8,
+        alt: "Botella de GRAND VANDUSH de Champagne - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     //Cerveza
 
@@ -1108,7 +1218,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 2.50
+        precio: 2.50,
+        alt: "Botella de CERVEZA CORONA 355CC de Cerveza - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "CERVEZA PILSENER LATOTA 473CC",
@@ -1118,7 +1229,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 8
+        precio: 8,
+        alt: "CERVEZA PILSENER LATOTA 473CC - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
 
     // Cigarrillos
@@ -1131,7 +1243,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 3.70
+        precio: 3.70,
+        alt: "Cigarrillos lark 10 unidades - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "LIDER 10U",
@@ -1141,7 +1254,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 3.70
+        precio: 3.70,
+        alt: "Cigarrillos lider 10 unidades - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "MALBORO BLANCO 10U",
@@ -1151,7 +1265,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 3.70
+        precio: 3.70,
+        alt: "Cigarrillos malboro blanco 10 unidades - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "MALBORO BLANCO 10U",
@@ -1161,7 +1276,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 3.70
+        precio: 3.70,
+        alt: "Cigarrillos malboro blanco 10 unidades - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "MALBORO ROJO 10U",
@@ -1171,7 +1287,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 3.70
+        precio: 3.70,
+        alt: "Cigarrillos malboro blanco 10 unidades - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
     {
         id: "MALBORO MENTOLADO 10U",
@@ -1181,7 +1298,8 @@ const productos = [
             nombre: "otros",
             id: "otros"
         },
-        precio: 8
+        precio: 8,
+        alt: "Cigarrillos malboro mentolado 10 unidades - Licorería al norte de Quito con entregas a domicilio las 24 horas La Huequita Quiteña"
     },
 
     //Confitería

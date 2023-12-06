@@ -1,2 +1,7 @@
-User-agent: *
+User-agent: Googlebot
 Disallow:
+
+User-agent: *
+Allow: /
+
+Sitemap: https://lahuequitaquitena.netlify.app/sitemap.xml
