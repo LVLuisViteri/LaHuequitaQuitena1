@@ -1,33 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://lahuequitaquitena.netlify.app/</loc>
-    <lastmod>2023-11-09T16:27:05+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://lahuequitaquitena.netlify.app/blog</loc>
-    <lastmod>2023-11-09T16:27:05+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://lahuequitaquitena.netlify.app/politicas-de-devolucion</loc>
-    <lastmod>2023-11-09T16:27:05+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://lahuequitaquitena.netlify.app/historia</loc>
-    <lastmod>2023-11-09T16:27:05+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://lahuequitaquitena.netlify.app/carrito</loc>
-    <lastmod>2023-11-09T16:27:05+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://lahuequitaquitena.netlify.app/entrada1</loc>
-    <lastmod>2023-11-09T16:27:05+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
+    <loc>https://lahuequitaquitena.netlify.app</loc>
+    <lastmod>2023-12-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://lahuequitaquitena.netlify.app/carrito</loc>
+    <lastmod>2023-12-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://lahuequitaquitena.netlify.app/historia</loc>
+    <lastmod>2023-12-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://lahuequitaquitena.netlify.app/politicas-de-devolucion</loc>
+    <lastmod>2023-12-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://lahuequitaquitena.netlify.app/blog</loc>
+    <lastmod>2023-12-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://lahuequitaquitena.netlify.app/</loc>
+    <lastmod>2023-12-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://lahuequitaquitena.netlify.app/entrada1</loc>
+    <lastmod>2023-12-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://lahuequitaquitena.netlify.app/ecuador-vs-venezuela</loc>
+    <lastmod>2023-12-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
 </urlset>
