@@ -498,7 +498,7 @@ main {
     width: 7%;
     position: fixed;
     bottom: 100px;
-    right: 30px;
+    right: 30px;    
     background-color: #25D366; /* Color de WhatsApp */
     color: #fff;
     border: none;
@@ -531,4 +531,13 @@ main {
     justify-content: center;
     text-decoration: none;
     z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .whatsapp-icon {
+        width: 20%; /* Cambia el tamaño en la media query */
+    }
+    .instagram-icon{
+        width: 20%;
+    }
 }
