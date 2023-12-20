@@ -15,7 +15,7 @@ const productos = [
     {
         id: "Jhon Morris Negro 1L",
         titulo: "Jhon Morris Negro 1L",
-        imagen: "./Imagenes/Wisky/JM1L.png",
+        imagen: "./Imagenes/Wisky/JM1L.webp",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
@@ -348,7 +348,7 @@ const productos = [
     {
         id: "Norteño 750 ml",
         titulo: "Norteño 750 ml",
-        imagen: "./imagenes/Aguardiente/Norteño.jpg",
+        imagen: "./imagenes/Aguardiente/Norteño.webp",
         categoria: {
             nombre: "Aguardiente",
             id: "aguardiente"
@@ -625,7 +625,7 @@ const productos = [
     {
         id: "GATO NEGRO 750ML",
         titulo: "GATO NEGRO 750ML",
-        imagen: "./imagenes/Vinos/gato-negro.jpg",
+        imagen: "./imagenes/Vinos/gato-negro.webp",
         categoria: {
             nombre: "Vinos",
             id: "vinos"
@@ -681,7 +681,7 @@ const productos = [
     {
         id: "Ron Ronero 750ml",
         titulo: "Ron Ronero 750ml",
-        imagen: "./imagenes/Ron/RonRonero.jpg",
+        imagen: "./imagenes/Ron/RonRonero.webp",
         categoria: {
             nombre: "Ron",
             id: "ron"
@@ -725,7 +725,7 @@ const productos = [
     {
         id: "ABUELO 375ML",
         titulo: "ABUELO 375ML",
-        imagen: "./imagenes/Ron/ron-abuelo-anejo-375ml.jpg",
+        imagen: "./imagenes/Ron/ron-abuelo-anejo-375ml.webp",
         categoria: {
             nombre: "Ron",
             id: "ron"
@@ -791,7 +791,7 @@ const productos = [
     {
         id: "ESTELAR ORO 375ML",
         titulo: "ESTELAR ORO 375ML",
-        imagen: "./imagenes/Ron/estelar-375ml.jpg",
+        imagen: "./imagenes/Ron/estelar-375ml.webp",
         categoria: {
             nombre: "Ron",
             id: "ron"
@@ -802,7 +802,7 @@ const productos = [
     {
         id: "GENIO TAPA NEGRA 750ML",
         titulo: "GENIO TAPA NEGRA 750ML",
-        imagen: "./imagenes/Ron/genio-tapa-negra-750ml.png",
+        imagen: "./imagenes/Ron/genio-tapa-negra-750ml.webp",
         categoria: {
             nombre: "Ron",
             id: "ron"
@@ -846,7 +846,7 @@ const productos = [
     {
         id: "VIEJO DE CALDAS 750ML",
         titulo: "VIEJO DE CALDAS 750ML",
-        imagen: "./imagenes/Ron/ron-viejo-de-caldas-750ml.jpg",
+        imagen: "./imagenes/Ron/ron-viejo-de-caldas-750ml.webp",
         categoria: {
             nombre: "Ron",
             id: "ron"
@@ -892,7 +892,7 @@ const productos = [
     {
         id: "Green mate 750ml",
         titulo: "Green mate 750ml",
-        imagen: "./imagenes/Licor de Hiervas/GreenMate.jpg",
+        imagen: "./imagenes/Licor de Hiervas/GreenMate.webp",
         categoria: {
             nombre: "Licor de hiervas",
             id: "licor-de-hiervas"
@@ -937,7 +937,7 @@ const productos = [
     {
         id: "TEQUILA EL CHARRO 750ML",
         titulo: "TEQUILA EL CHARRO 750ML",
-        imagen: "./imagenes/Tequila/tequila-charro.jpg",
+        imagen: "./imagenes/Tequila/tequila-charro.webp",
         categoria: {
             nombre: "tequila",
             id: "tequila"
@@ -1026,7 +1026,7 @@ const productos = [
     {
         id: "SWITCH",
         titulo: "SWITCH",
-        imagen: "./imagenes/Vodka/vodka-switch.jpg",
+        imagen: "./imagenes/Vodka/vodka-switch.webp",
         categoria: {
             nombre: "vodka",
             id: "vodka"
@@ -1037,7 +1037,7 @@ const productos = [
     {
         id: "VODKA 40 750ML",
         titulo: "VODKA 40 750ML",
-        imagen: "./imagenes/Vodka/vodk-40.jpg",
+        imagen: "./imagenes/Vodka/vodk-40.webp",
         categoria: {
             nombre: "vodka",
             id: "vodka"
@@ -1106,7 +1106,7 @@ const productos = [
     {
         id: "RON ZHUMIR",
         titulo: "RON ZHUMIR",
-        imagen: "./imagenes/Zhumir/Ron-Zhumir.jpg",
+        imagen: "./imagenes/Zhumir/Ron-Zhumir.webp",
         categoria: {
             nombre: "zhumir",
             id: "zhumir"
@@ -1317,7 +1317,7 @@ const productos = [
     {
         id: "PANCHITOS",
         titulo: "PANCHITOS",
-        imagen: "./imagenes/Confitería/Panchitos.jpg",
+        imagen: "./imagenes/Confitería/Panchitos.web",
         categoria: {
             nombre: "otros",
             id: "otros"
@@ -1327,7 +1327,7 @@ const productos = [
     {
         id: "PAPAS SIN MARCA",
         titulo: "PPAPAS SIN MARCA",
-        imagen: "./imagenes/Confitería/papitas-sin-marca.jpg",
+        imagen: "./imagenes/Confitería/papitas-sin-marca.webp",
         categoria: {
             nombre: "otros",
             id: "otros"
@@ -1337,7 +1337,7 @@ const productos = [
         {
         id: "TRIDENT X3 SURTIDO",
         titulo: "TRIDENT X3 SURTIDO",
-        imagen: "./imagenes/Confitería/Trident-Menta-X3.jpg",
+        imagen: "./imagenes/Confitería/Trident-Menta-X3.webp",
         categoria: {
             nombre: "otros",
             id: "otros"
@@ -1377,7 +1377,7 @@ const productos = [
     {
         id: "AGUA TONICA",
         titulo: "AGUA TONICA",
-        imagen: "./imagenes/Otros/AGUA-TONICA-1.5.png",
+        imagen: "./imagenes/Otros/AGUA-TONICA-1.5.webp",
         categoria: {
             nombre: "otros",
             id: "otros"
@@ -1407,7 +1407,7 @@ const productos = [
     {
         id: "FUZE TEA 1LT",
         titulo: "FUZE TEA 1LT",
-        imagen: "./imagenes/Otros/fuze-tea-1L.jpg",
+        imagen: "./imagenes/Otros/fuze-tea-1L.webp",
         categoria: {
             nombre: "otros",
             id: "otros"
