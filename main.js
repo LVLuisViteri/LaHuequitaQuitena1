@@ -37,7 +37,7 @@ const productos = [
     {
         id: "Something Special 750ml",
         titulo: "Something Special 750ml",
-        imagen: "./imagenes/Wisky/Something.png",
+        imagen: "./imagenes/Wisky/Something.webp",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
