@@ -26,7 +26,7 @@ const productos = [
     {
         id: "Jhon Morris Negro 750 ml",
         titulo: "Jhon Morris Negro 750 ml",
-        imagen: "./Imagenes/Wisky/JM1L.png",
+        imagen: "./Imagenes/Wisky/JM1L.webp",
         categoria: {
             nombre: "Wisky",
             id: "wisky"
@@ -381,7 +381,7 @@ const productos = [
     {
         id: "PAISA AZUL 750ML",
         titulo: "PAISA AZUL 750ML",
-        imagen: "./imagenes/Aguardiente/Paisa-azul-750-ml.jpg",
+        imagen: "./imagenes/Aguardiente/Paisa-azul-750-ml.webp",
         categoria: {
             nombre: "Aguardiente",
             id: "aguardiente"
