@@ -1642,15 +1642,3 @@ function cerrarMenuHamburguesa() {
 }
 
 cerrarMenu.addEventListener("click", cerrarMenuHamburguesa);
-
-productos.forEach((producto) => {
-    const imagen = new Image();
-    imagen.src = producto.imagen;
-
-    // Establecer el tamaño deseado (por ejemplo, 300x200)
-    imagen.width = 300;
-    imagen.height = 200;
-
-    // Asignar el nuevo tamaño a la imagen
-    document.body.appendChild(imagen);
-});
